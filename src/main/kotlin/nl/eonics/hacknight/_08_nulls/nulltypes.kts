@@ -12,7 +12,7 @@ fun printSize(nickName: String?) {
 
     // java style
     // nickName != null ? nickName.length() : 0
-    println("Size is ${nickName?.length ?: 0}")
+    println("Size is ${nickName?.length ?: 0}") // elvis
 }
 
 printSize(nickName("Thomas"))
