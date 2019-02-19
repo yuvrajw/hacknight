@@ -17,3 +17,14 @@ listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
     .filter { it % 2 == 0}
     .map(double)
     .forEach { println(it) }
+
+
+val oldList = listOf("alpha", "beta", "gamma")
+
+//List<String> newList = oldList.stream()
+//    .filter( s -> s.startsWith("a") )
+//.collect(Collectors.toList());
+
+val newList = oldList.filter { it.startsWith("a") }
+println(newList)
+

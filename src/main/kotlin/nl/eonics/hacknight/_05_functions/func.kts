@@ -3,5 +3,6 @@ fun greet(msg: String = "hi", name: String) {
 }
 
 greet("Hello", "Tom")
-//greet(name = "Tom", msg = "Hello" )
-//greet(name = "Jerry")
+greet(name = "Tom", msg = "Hello" )
+greet(msg = "Hello" ,name = "Tom" )
+greet(name = "Jerry")

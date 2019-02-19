@@ -8,7 +8,7 @@ fun nickName(name: String): String? {
 // nullable parameter
 fun printSize(nickName: String?) {
 
-    //println(name.length) COMPILER ERROR
+//    println(nickName.length) //COMPILER ERROR
 
     // java style
     // nickName != null ? nickName.length() : 0
